@@ -37,6 +37,7 @@ def main():
 
 	account = load_account()
 
+	logging.info("Application started successfully")
 
 	if account is None:
 		print("Creating new account...")
